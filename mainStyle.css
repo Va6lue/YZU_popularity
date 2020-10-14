@@ -1,0 +1,166 @@
+/* 人機互動 hw1 1071532 */
+
+body {
+    background-color: moccasin;
+}
+
+#yzuLogo {
+    position: absolute;
+    height: 15%;
+    left: 2%;
+    top: 2%;
+    cursor: pointer;
+}
+
+#caption {
+    text-shadow: 3px 2px 5px rgb(97, 155, 212);
+    text-align: center;
+}
+
+footer p {
+    text-align: right;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: bold;
+    font-size: large;
+    color: cornflowerblue;
+}
+
+#mapBlock {
+    position: relative;
+    background-color: white;
+    border-radius: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+#yzuMap {
+    opacity: 0.8;
+    border-radius: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.triangle {
+    position: absolute;
+    width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 15px solid red;
+}
+
+#triangle1 {
+    top: 39%;
+    left: 26%;
+}
+
+#triangle2 {
+    top: 15%;
+    left: 44.7%;
+}
+
+#triangle3 {
+    top: 39%;
+    left: 46.1%;
+}
+
+#triangle5 {
+    top: 15%;
+    left: 31.5%;
+}
+
+#triangle6 {
+    top: 20%;
+    left: 19%;
+}
+
+#triangle7 {
+    top: 38%;
+    left: 56%;
+}
+
+.b_area {
+    position: absolute;
+    background-color: violet;
+    cursor: pointer;
+    opacity: 0;
+}
+
+#b1_area {
+    top: 40%;
+    left: 23%;
+    width: 12%;
+    height: 12%;
+}
+
+#b2_area {
+    top: 15%;
+    left: 42%;
+    width: 9%;
+    height: 15%;
+}
+
+#b3_area {
+    top: 39%;
+    left: 43%;
+    width: 8.5%;
+    height: 14%;
+}
+
+#b5_area {
+    top: 15%;
+    left: 29%;
+    width: 11%;
+    height: 16%;
+}
+
+#b6_area {
+    top: 22%;
+    left: 19%;
+    width: 8%;
+    height: 15%;
+}
+
+#b7_area {
+    top: 38%;
+    left: 53%;
+    width: 8%;
+    height: 15%;
+}
+
+#person_ul {
+    position: absolute;
+    top: 11%;
+    left: -2%;
+    font-size: 25px;
+}
+
+#person_ul li {
+    position: relative;
+    padding-top: 40px;
+    list-style-type: none;
+}
+
+.person {
+    position: absolute;
+    top: 41px;
+    left: 70px;
+    width: 35px;
+}
+
+.person_clone1 {
+    position: absolute;
+    top: 41px;
+    left: 90px;
+    width: 35px;
+}
+
+.person_clone2 {
+    position: absolute;
+    top: 41px;
+    left: 110px;
+    width: 35px;
+}

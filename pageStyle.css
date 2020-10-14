@@ -1,0 +1,73 @@
+/* 人機互動 hw1 1071532 */
+
+body {
+    background-image: url('pageBackground.jpg');
+    background-color: moccasin;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: auto 100%;
+}
+
+#yzuLogo {
+    position: absolute;
+    height: 15%;
+    left: 2%;
+    top: 2%;
+    cursor: pointer;
+}
+
+#caption {
+    text-shadow: 3px 2px 5px rgb(97, 155, 212);
+    text-align: center;
+}
+
+footer p {
+    text-align: right;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: bold;
+    font-size: large;
+    color: cornflowerblue;
+}
+
+ul {
+    position: absolute;
+    top: 25%;
+    left: 30px;
+}
+
+li {
+    list-style-type: none;
+    font-size: 25px;
+}
+
+#people {
+    position: relative;
+    top: 40px;
+    left: 25%;
+    width: 75%;
+}
+
+#state {
+    position: absolute;
+    left: 12%;
+    font-weight: bold;
+    font-size: 200%;
+    color: dodgerBlue;
+}
+
+#peopleIMG {
+    position: absolute;
+    top: 75px;
+}
+
+#pic_sec {
+    position: relative;
+    visibility: hidden;
+}
+
+#pic_sec img {
+    position: absolute;
+    top: 50px;
+    right: 80px;
+    width: 40%;
+}
