@@ -3,22 +3,27 @@
 body {
     background-image: url('pageBackground.jpg');
     background-color: moccasin;
-    background-repeat: repeat;
     background-attachment: fixed;
     background-size: auto 100%;
 }
 
+header {
+    position: relative;
+    height: 100px;
+}
+
 #yzuLogo {
     position: absolute;
-    height: 15%;
+    height: 90px;
     left: 2%;
-    top: 2%;
     cursor: pointer;
 }
 
 #caption {
     text-shadow: 3px 2px 5px rgb(97, 155, 212);
     text-align: center;
+    margin: 0px;
+    padding-top: 20px;
 }
 
 footer p {
@@ -29,45 +34,55 @@ footer p {
     color: cornflowerblue;
 }
 
+main {
+    position: relative;
+    height: 400px;
+}
+
 ul {
     position: absolute;
-    top: 25%;
-    left: 30px;
+    margin: 0px;
+    width: 30%;
+    height: 100%;
 }
 
 li {
     list-style-type: none;
-    font-size: 25px;
+    font-size: 30px;
+    padding-top: 40px;
 }
 
 #people {
-    position: relative;
-    top: 40px;
-    left: 25%;
-    width: 75%;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    width: 15%;
+    height: 90%;
 }
 
 #state {
-    position: absolute;
-    left: 12%;
+    text-align: center;
     font-weight: bold;
-    font-size: 200%;
+    font-size: 2em;
     color: dodgerBlue;
 }
 
 #peopleIMG {
     position: absolute;
-    top: 75px;
+    top: 20%;
+    width: 100%;
 }
 
 #pic_sec {
-    position: relative;
-    visibility: hidden;
+    position: absolute;
+    right: 2%;
+    width: 45%;
+    height: 100%;
 }
 
-#pic_sec img {
+#pic {
     position: absolute;
-    top: 50px;
-    right: 80px;
-    width: 40%;
+    top: 15%;
+    right: 5%;
+    height: 70%;
 }

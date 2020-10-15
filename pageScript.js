@@ -43,5 +43,5 @@ else {
 }
 
 // 顯示圖片
-var targetPic = document.getElementById('pic'+String(id));
-targetPic.style.visibility = 'visible';
+var targetPic = document.getElementById('pic');
+targetPic.src = 'building '+String(id)+'.jpg';
