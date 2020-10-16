@@ -1,6 +1,12 @@
 /* 人機互動 hw1 1071532 */
 
+html,
 body {
+    height: 100%;
+}
+
+body {
+    margin: 0px;
     background-image: url('pageBackground.jpg');
     background-color: moccasin;
     background-attachment: fixed;
@@ -32,11 +38,12 @@ footer p {
     font-weight: bold;
     font-size: large;
     color: cornflowerblue;
+    margin: 0px;
 }
 
 main {
     position: relative;
-    height: 400px;
+    height: 75%;
 }
 
 ul {
